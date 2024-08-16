@@ -92,7 +92,7 @@ module.exports = {
 };
 EOF
 
-read -p "Enter your EVM wallet private key (without 0x): " WALLET_PRIVATE_KEY
+read -p "Enter your EVM wallet private key: " WALLET_PRIVATE_KEY
 
 print_command "Generating .env file..."
 cat <<EOF > .env
